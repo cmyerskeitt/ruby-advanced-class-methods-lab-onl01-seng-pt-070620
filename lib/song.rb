@@ -60,10 +60,10 @@ class Song
   def self.create_from_filename(filename)
     match= self.new_from_filename(filename)
     song = self.create
-    # binding.pry 
-    # song.name = match.name 
-    # song.artist_name = match.artist_name
-    # song
+    binding.pry 
+    song.name = match.name 
+    song.artist_name = match.artist_name
+    song
   end 
   
 end
