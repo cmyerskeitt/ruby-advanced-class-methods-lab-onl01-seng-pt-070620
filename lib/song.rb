@@ -31,10 +31,9 @@ class Song
   end 
   
   def self.find_by_name(name)
+    match = self.all.find { |song| song.name == name}
     binding.pry 
-    # match = self.all.find do |song| song.name == name 
-  # end
-    # match 
+    match 
   end
     
     
