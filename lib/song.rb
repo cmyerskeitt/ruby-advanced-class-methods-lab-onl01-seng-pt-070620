@@ -40,7 +40,7 @@ class Song
     if match 
       match 
     else 
-      self.create_by_name
+      self.create_by_name(name)
     end 
   end 
       
