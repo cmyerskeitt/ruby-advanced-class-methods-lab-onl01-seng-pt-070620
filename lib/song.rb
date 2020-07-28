@@ -60,6 +60,7 @@ class Song
   def self.create_from_filename(filename)
     match= self.new_from_filename(filename)
     binding.pry 
+    song = self.create
   end 
   
 end
