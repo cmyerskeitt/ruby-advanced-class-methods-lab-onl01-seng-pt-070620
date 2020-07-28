@@ -59,9 +59,11 @@ class Song
   
   def self.create_from_filename(filename)
     match= self.new_from_filename(filename)
-    binding.pry 
     song = self.create
-    song.name = match.name 
+    # binding.pry 
+    # song.name = match.name 
+    # song.artist_name = match.artist_name
+    # song
   end 
   
 end
