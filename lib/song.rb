@@ -49,7 +49,7 @@ class Song
   end 
   
   def self.new_from_filename(filename)
-    song_array = filename.split(-) 
+    song_array = filename.split("-") 
     song_array[1]= song.array[1].comp(".mp3")
     song=self.new 
     song.name= song-array[1]
